@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #c8d6bf;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 6.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* Centraliza o conteúdo dentro dos blocos */
+.bloco-1, .bloco-2, .bloco-3 {
+    background-color: #f7e4c6; /* Cada bloco tem cor diferente */
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centraliza o conteúdo vertical e horizontalmente */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.692);
+    text-align: center;
+    flex-direction: ;
+}
+
+/* Cor de fundo personalizada para cada bloco */
+.bloco-2 {
+    background-color: #6cbdb5;
+}
+
+.bloco-3 {
+    background-color: #f4f1bb;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    gap: 1rem  ;
+}
